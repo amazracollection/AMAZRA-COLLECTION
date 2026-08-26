@@ -9,43 +9,42 @@ const products = {
 
     classic: {
 
-        name: "The Classic",
+        name: "Kegio",
 
         category: "SIGNATURE SERIES",
 
-        price: 24999,
+        price: 1,999,
 
         image:
-            "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1000&q=85"
+            "WhatsApp Image 2026-08-26 at 6.16.11 PM (1).jpeg"
 
     },
 
 
     royal: {
 
-        name: "The Royal",
+        name: "Matturi",
 
         category: "ROYAL SERIES",
 
-        price: 32999,
+        price: 2,299,
 
         image:
-            "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1000&q=85"
+          "WhatsApp Image 2026-08-26 at 6.16.17 PM.jpeg"
 
     },
 
 
     noir: {
 
-        name: "The Noir",
+        name: "Universal Point",
 
         category: "NOIR SERIES",
 
-        price: 28999,
+        price: 1,999,
 
         image:
-            "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?auto=format&fit=crop&w=1000&q=85"
-
+           "WhatsApp Image 2026-08-26 at 6.16.13 PM.jpeg"
     }
 
 };
