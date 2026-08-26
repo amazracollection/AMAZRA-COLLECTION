@@ -36,15 +36,7 @@ const shopButtons = document.querySelectorAll(".shop-btn");
 
 shopButtons.forEach(button => {
 
-    button.addEventListener("click", () => {
 
-        alert(
-            "Thank you for choosing AMAZRA Collection. Our store is coming soon!"
-        );
-
-    });
-
-});
 
 
 // CONTACT FORM
