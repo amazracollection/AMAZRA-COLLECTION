@@ -9,11 +9,11 @@ const products = {
 
     classic: {
 
-        name: "The Classic",
+        name: "The Kegio",
 
-        category: "SIGNATURE SERIES",
+        category: "KEGIO SERIES",
 
-        price: 24999,
+        price: 2,099,
 
         image:
              "WhatsApp Image 2026-08-26 at 6.16.11 PM (1).jpeg"
@@ -23,9 +23,9 @@ const products = {
 
     royal: {
 
-        name: "The Royal",
+        name: "The Matturi",
 
-        category: "ROYAL SERIES",
+        category: "MATTURI SERIES",
 
         price: 32999,
 
@@ -37,11 +37,11 @@ const products = {
 
     noir: {
 
-        name: "The Noir",
+        name: "The Universal Point",
 
-        category: "NOIR SERIES",
+        category: "UNIVERSAL POINT SERIES",
 
-        price: 28999,
+        price: 1,999,
 
         image:
             "WhatsApp Image 2026-08-26 at 6.16.13 PM.jpeg"
