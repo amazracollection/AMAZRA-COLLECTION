@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AMAZRA Collection | Watch</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="product.css">
+
+    <script src="product.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<header class="navbar product-navbar">
+
+    <a href="index.html" class="logo">
+        AMAZRA<span>Collection</span>
+    </a>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="index.html#collection">Collection</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+
+    </nav>
+
+</header>
+
+
+
+<!-- PRODUCT -->
+
+<main class="product-page">
+
+
+    <div class="back-container">
+
+        <a href="index.html#collection" class="back-link">
+            ← Back to Collection
+        </a>
+
+    </div>
+
+
+
+    <section class="product-detail">
+
+
+        <!-- PRODUCT IMAGE -->
+
+        <div class="product-gallery">
+
+            <div class="main-product-image">
+
+                <img
+                    id="productImage"
+                    src=""
+                    alt="AMAZRA Watch"
+                >
+
+            </div>
+
+        </div>
+
+
+
+        <!-- PRODUCT INFORMATION -->
+
+        <div class="product-details">
+
+            <p class="product-label" id="productCategory">
+                SIGNATURE SERIES
+            </p>
+
+            <h1 id="productName">
+                The Classic
+            </h1>
+
+            <div class="rating">
+
+                <span>★★★★★</span>
+
+                <small>
+                    4.9 / 5 · 126 Reviews
+                </small>
+
+            </div>
+
+            <div class="product-price" id="productPrice">
+                PKR 24,999
+            </div>
+
+
+            <p class="product-description">
+
+                A timeless expression of elegance and precision.
+                The AMAZRA Signature Collection is designed for
+                those who believe every second deserves to be
+                remembered.
+
+            </p>
+
+
+            <!-- FEATURES -->
+
+            <div class="product-features">
+
+                <div>
+                    <strong>✓</strong>
+                    Premium Design
+                </div>
+
+                <div>
+                    <strong>✓</strong>
+                    Water Resistant
+                </div>
+
+                <div>
+                    <strong>✓</strong>
+                    1 Year Warranty
+                </div>
+
+                <div>
+                    <strong>✓</strong>
+                    Premium Packaging
+                </div>
+
+            </div>
+
+
+            <!-- QUANTITY -->
+
+            <div class="quantity-section">
+
+                <label>
+                    Quantity
+                </label>
+
+                <div class="quantity-box">
+
+                    <button id="minusBtn">
+                        −
+                    </button>
+
+                    <span id="quantity">
+                        1
+                    </span>
+
+                    <button id="plusBtn">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- ORDER BUTTON -->
+
+            <button
+                class="order-btn"
+                id="orderBtn"
+            >
+                Order Now
+            </button>
+
+
+            <div class="delivery-info">
+
+                <div>
+                    🚚 <strong>Free Delivery</strong>
+                    <small>On orders above PKR 5,000</small>
+                </div>
+
+                <div>
+                    🔒 <strong>Secure Order</strong>
+                    <small>Your information is protected</small>
+                </div>
+
+                <div>
+                    ↩ <strong>Easy Returns</strong>
+                    <small>7-day return policy</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ORDER SECTION -->
+
+    <section class="order-section" id="orderSection">
+
+
+        <div class="order-heading">
+
+            <p>
+                COMPLETE YOUR ORDER
+            </p>
+
+            <h2>
+                Where Should We<br>
+                Deliver Your Watch?
+            </h2>
+
+            <span></span>
+
+        </div>
+
+
+
+        <div class="order-container">
+
+
+            <!-- CUSTOMER FORM -->
+
+            <div class="customer-form">
+
+                <h3>
+                    Customer Information
+                </h3>
+
+
+                <form id="orderForm">
+
+
+                    <div class="input-group">
+
+                        <label>
+                            Full Name *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="customerName"
+                            placeholder="Enter your full name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="input-group">
+
+                            <label>
+                                Phone Number *
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="customerPhone"
+                                placeholder="+92 300 1234567"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label>
+                                Email Address
+                            </label>
+
+                            <input
+                                type="email"
+                                id="customerEmail"
+                                placeholder="your@email.com"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label>
+                            Complete Address *
+                        </label>
+
+                        <textarea
+                            id="customerAddress"
+                            placeholder="House / Flat, Street, Area"
+                            rows="4"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="input-group">
+
+                            <label>
+                                City *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="customerCity"
+                                placeholder="Your city"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label>
+                                Postal Code
+                            </label>
+
+                            <input
+                                type="text"
+                                id="postalCode"
+                                placeholder="Postal code"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- PAYMENT -->
+
+                    <h3 class="payment-title">
+                        Payment Method
+                    </h3>
+
+
+                    <label class="payment-option">
+
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="Cash on Delivery"
+                            checked
+                        >
+
+                        <span>
+
+                            <strong>
+                                Cash on Delivery
+                            </strong>
+
+                            <small>
+                                Pay when your order arrives
+                            </small>
+
+                        </span>
+
+                    </label>
+
+
+                    <label class="payment-option">
+
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="Bank Transfer"
+                        >
+
+                        <span>
+
+                            <strong>
+                                Bank Transfer
+                            </strong>
+
+                            <small>
+                                Transfer payment before dispatch
+                            </small>
+
+                        </span>
+
+                    </label>
+
+
+                    <button
+                        type="submit"
+                        class="confirm-order-btn"
+                    >
+                        Confirm Order
+                    </button>
+
+
+                </form>
+
+            </div>
+
+
+
+            <!-- ORDER SUMMARY -->
+
+            <div class="order-summary">
+
+                <h3>
+                    Your Order
+                </h3>
+
+
+                <div class="summary-product">
+
+                    <img
+                        id="summaryImage"
+                        src=""
+                        alt="Watch"
+                    >
+
+                    <div>
+
+                        <h4 id="summaryName">
+                            The Classic
+                        </h4>
+
+                        <p id="summaryCategory">
+                            Signature Series
+                        </p>
+
+                        <span>
+                            Qty:
+                            <b id="summaryQuantity">
+                                1
+                            </b>
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="summary-lines">
+
+                    <div>
+
+                        <span>
+                            Subtotal
+                        </span>
+
+                        <strong id="subtotal">
+                            PKR 24,999
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            Delivery
+                        </span>
+
+                        <strong class="free">
+                            FREE
+                        </strong>
+
+                    </div>
+
+
+                    <div class="total-line">
+
+                        <span>
+                            Total
+                        </span>
+
+                        <strong id="total">
+                            PKR 24,999
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="secure-message">
+
+                    🔒 Your order is secure and protected.
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- SUCCESS MESSAGE -->
+
+    <section
+        class="success-section"
+        id="successSection"
+    >
+
+        <div class="success-card">
+
+            <div class="success-icon">
+                ✓
+            </div>
+
+            <p class="success-small">
+                ORDER CONFIRMED
+            </p>
+
+            <h2>
+                Thank You!
+            </h2>
+
+            <p>
+                Your AMAZRA Collection order has been
+                successfully placed.
+            </p>
+
+            <div class="order-number">
+
+                Order ID:
+                <strong id="orderNumber">
+                    AMZ-000000
+                </strong>
+
+            </div>
+
+            <p class="success-note">
+
+                Our team will contact you shortly to
+                confirm your order and delivery details.
+
+            </p>
+
+            <a
+                href="index.html"
+                class="gold-btn"
+            >
+                Continue Shopping
+            </a>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-logo">
+        AMAZRA<span>Collection</span>
+    </div>
+
+    <p>
+        © 2026 AMAZRA Collection. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+</body>
+</html>

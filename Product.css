@@ -1,0 +1,814 @@
+/* ==================================
+   AMAZRA PRODUCT PAGE
+================================== */
+
+.product-navbar {
+    position: relative;
+    background: #080808;
+    border-bottom: 1px solid #202020;
+}
+
+
+/* PRODUCT PAGE */
+
+.product-page {
+    background: #080808;
+    min-height: 100vh;
+}
+
+
+/* BACK BUTTON */
+
+.back-container {
+    max-width: 1250px;
+
+    margin: auto;
+
+    padding: 35px 30px 0;
+}
+
+.back-link {
+    color: #888;
+
+    font-size: 11px;
+
+    letter-spacing: 1px;
+
+    transition: 0.3s;
+}
+
+.back-link:hover {
+    color: #c9a45c;
+}
+
+
+/* PRODUCT DETAIL */
+
+.product-detail {
+    max-width: 1250px;
+
+    margin: auto;
+
+    padding: 50px 30px 120px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 80px;
+
+    align-items: center;
+}
+
+
+/* IMAGE */
+
+.main-product-image {
+    width: 100%;
+
+    height: 650px;
+
+    background: #111;
+
+    overflow: hidden;
+}
+
+.main-product-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: 0.5s;
+}
+
+
+/* DETAILS */
+
+.product-label {
+    color: #c9a45c;
+
+    font-size: 10px;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 12px;
+}
+
+.product-details h1 {
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 75px;
+
+    font-weight: 500;
+
+    line-height: 0.95;
+
+    margin-bottom: 20px;
+}
+
+
+/* RATING */
+
+.rating {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+.rating span {
+    color: #c9a45c;
+
+    letter-spacing: 3px;
+}
+
+.rating small {
+    color: #777;
+
+    font-size: 10px;
+}
+
+
+/* PRICE */
+
+.product-price {
+    color: #ffffff;
+
+    font-size: 24px;
+
+    font-weight: 500;
+
+    margin-bottom: 25px;
+}
+
+.product-description {
+    color: #999;
+
+    font-size: 13px;
+
+    line-height: 2;
+
+    max-width: 550px;
+
+    margin-bottom: 30px;
+}
+
+
+/* FEATURES */
+
+.product-features {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 15px;
+
+    padding: 25px 0;
+
+    border-top: 1px solid #222;
+
+    border-bottom: 1px solid #222;
+
+    margin-bottom: 30px;
+}
+
+.product-features div {
+    color: #aaa;
+
+    font-size: 11px;
+}
+
+.product-features strong {
+    color: #c9a45c;
+
+    margin-right: 8px;
+}
+
+
+/* QUANTITY */
+
+.quantity-section {
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    margin-bottom: 25px;
+}
+
+.quantity-section label {
+    color: #888;
+
+    font-size: 11px;
+}
+
+.quantity-box {
+    display: flex;
+
+    align-items: center;
+
+    border: 1px solid #333;
+}
+
+.quantity-box button {
+    width: 40px;
+    height: 40px;
+
+    border: none;
+
+    background: #111;
+
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 18px;
+}
+
+.quantity-box span {
+    width: 45px;
+
+    text-align: center;
+
+    color: white;
+
+    font-size: 12px;
+}
+
+
+/* ORDER BUTTON */
+
+.order-btn {
+    width: 100%;
+
+    padding: 19px;
+
+    background: #c9a45c;
+
+    color: #080808;
+
+    border: none;
+
+    font-family: inherit;
+
+    font-weight: 600;
+
+    font-size: 11px;
+
+    letter-spacing: 3px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    margin-bottom: 30px;
+}
+
+.order-btn:hover {
+    background: #e0bf78;
+
+    transform: translateY(-2px);
+}
+
+
+/* DELIVERY */
+
+.delivery-info {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.delivery-info div {
+    display: flex;
+
+    flex-direction: column;
+
+    color: #aaa;
+
+    font-size: 11px;
+}
+
+.delivery-info strong {
+    color: white;
+
+    margin-left: 5px;
+}
+
+.delivery-info small {
+    color: #666;
+
+    margin-left: 25px;
+
+    margin-top: 3px;
+}
+
+
+/* ==================================
+   ORDER SECTION
+================================== */
+
+.order-section {
+    background: #0d0d0d;
+
+    padding: 120px 7%;
+
+    border-top: 1px solid #222;
+}
+
+.order-heading {
+    text-align: center;
+
+    margin-bottom: 70px;
+}
+
+.order-heading p {
+    color: #c9a45c;
+
+    font-size: 10px;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 15px;
+}
+
+.order-heading h2 {
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 60px;
+
+    font-weight: 500;
+
+    line-height: 1;
+}
+
+.order-heading span {
+    display: block;
+
+    width: 50px;
+    height: 1px;
+
+    background: #c9a45c;
+
+    margin: 25px auto;
+}
+
+
+/* ORDER CONTAINER */
+
+.order-container {
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1.2fr 0.8fr;
+
+    gap: 60px;
+}
+
+
+/* FORM */
+
+.customer-form,
+.order-summary {
+    background: #111;
+
+    padding: 40px;
+}
+
+.customer-form h3,
+.order-summary h3 {
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 32px;
+
+    font-weight: 500;
+
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    color: #999;
+
+    font-size: 10px;
+
+    letter-spacing: 1px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+
+    padding: 15px;
+
+    background: #090909;
+
+    border: 1px solid #292929;
+
+    color: white;
+
+    outline: none;
+
+    font-family: inherit;
+
+    font-size: 12px;
+
+    resize: vertical;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #c9a45c;
+}
+
+.form-row {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 15px;
+}
+
+
+/* PAYMENT */
+
+.payment-title {
+    margin-top: 40px;
+}
+
+.payment-option {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 18px;
+
+    margin-bottom: 10px;
+
+    background: #090909;
+
+    border: 1px solid #252525;
+
+    cursor: pointer;
+}
+
+.payment-option:has(input:checked) {
+    border-color: #c9a45c;
+}
+
+.payment-option input {
+    accent-color: #c9a45c;
+}
+
+.payment-option span {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+.payment-option strong {
+    color: white;
+
+    font-size: 11px;
+}
+
+.payment-option small {
+    color: #777;
+
+    font-size: 10px;
+}
+
+
+/* CONFIRM */
+
+.confirm-order-btn {
+    width: 100%;
+
+    padding: 18px;
+
+    margin-top: 25px;
+
+    background: #c9a45c;
+
+    border: none;
+
+    color: #080808;
+
+    font-weight: 600;
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.confirm-order-btn:hover {
+    background: #e0bf78;
+}
+
+
+/* ==================================
+   ORDER SUMMARY
+================================== */
+
+.order-summary {
+    height: fit-content;
+
+    position: sticky;
+
+    top: 30px;
+}
+
+.summary-product {
+    display: flex;
+
+    gap: 20px;
+
+    padding-bottom: 25px;
+
+    border-bottom: 1px solid #292929;
+}
+
+.summary-product img {
+    width: 100px;
+    height: 120px;
+
+    object-fit: cover;
+}
+
+.summary-product h4 {
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 25px;
+
+    font-weight: 500;
+
+    margin-bottom: 5px;
+}
+
+.summary-product p {
+    color: #c9a45c;
+
+    font-size: 9px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+}
+
+.summary-product span {
+    color: #777;
+
+    font-size: 10px;
+}
+
+.summary-lines {
+    padding: 25px 0;
+}
+
+.summary-lines > div {
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 10px 0;
+
+    color: #888;
+
+    font-size: 11px;
+}
+
+.summary-lines strong {
+    color: white;
+}
+
+.summary-lines .free {
+    color: #8cbd79;
+}
+
+.total-line {
+    border-top: 1px solid #333;
+
+    margin-top: 10px;
+
+    padding-top: 20px !important;
+
+    font-size: 14px !important;
+}
+
+.total-line strong {
+    color: #c9a45c !important;
+
+    font-size: 18px;
+}
+
+.secure-message {
+    padding: 15px;
+
+    background: #090909;
+
+    color: #777;
+
+    font-size: 10px;
+
+    text-align: center;
+}
+
+
+/* ==================================
+   SUCCESS
+================================== */
+
+.success-section {
+    display: none;
+
+    min-height: 80vh;
+
+    padding: 100px 20px;
+
+    background: #080808;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.success-section.show {
+    display: flex;
+}
+
+.success-card {
+    max-width: 600px;
+
+    width: 100%;
+
+    padding: 70px 40px;
+
+    background: #111;
+
+    text-align: center;
+
+    border: 1px solid #292929;
+}
+
+.success-icon {
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 25px;
+
+    border: 1px solid #c9a45c;
+
+    border-radius: 50%;
+
+    color: #c9a45c;
+
+    font-size: 30px;
+}
+
+.success-small {
+    color: #c9a45c;
+
+    font-size: 10px;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 15px;
+}
+
+.success-card h2 {
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 65px;
+
+    font-weight: 500;
+
+    margin-bottom: 15px;
+}
+
+.success-card > p {
+    color: #999;
+
+    font-size: 13px;
+
+    line-height: 1.8;
+}
+
+.order-number {
+    display: inline-block;
+
+    margin: 25px 0;
+
+    padding: 15px 25px;
+
+    background: #090909;
+
+    color: #888;
+
+    font-size: 11px;
+}
+
+.order-number strong {
+    color: #c9a45c;
+
+    letter-spacing: 2px;
+}
+
+.success-note {
+    margin-bottom: 30px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+
+    .product-detail {
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+    .main-product-image {
+        height: 500px;
+    }
+
+    .product-details h1 {
+        font-size: 60px;
+    }
+
+    .order-container {
+        grid-template-columns: 1fr;
+    }
+
+    .order-summary {
+        position: static;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .product-detail {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main-product-image {
+        height: 420px;
+    }
+
+    .product-details h1 {
+        font-size: 50px;
+    }
+
+    .product-features {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .customer-form,
+    .order-summary {
+        padding: 25px;
+    }
+
+    .order-heading h2 {
+        font-size: 45px;
+    }
+
+}
