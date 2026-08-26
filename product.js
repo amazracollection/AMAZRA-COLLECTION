@@ -9,42 +9,42 @@ const products = {
 
     classic: {
 
-        name: "Kegio"
+        name: "The Classic",
 
         category: "SIGNATURE SERIES",
 
-        price: 1,999,
+        price: 24999,
 
         image:
-            "WhatsApp Image 2026-08-26 at 6.16.11 PM (1).jpeg"
+            "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1000&q=85"
 
     },
 
 
     royal: {
 
-        name: "Matturi"
+        name: "The Royal",
 
         category: "ROYAL SERIES",
 
-        price: 2,299,
+        price: 32999,
 
         image:
-            "WhatsApp Image 2026-08-26 at 6.16.17 PM.jpeg"
+            "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1000&q=85"
 
     },
 
 
     noir: {
 
-        name: "Universal Point"
+        name: "The Noir",
 
         category: "NOIR SERIES",
 
-        price: 1,999,
+        price: 28999,
 
         image:
-            "WhatsApp Image 2026-08-26 at 6.16.13 PM.jpeg"
+            "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?auto=format&fit=crop&w=1000&q=85"
 
     }
 
@@ -303,44 +303,6 @@ orderForm.addEventListener(
 
         // SHOW SUCCESS
 
-        const successSection =
-            document.getElementById(
-                "successSection"
-            );
-
-        successSection.classList.add("show");
-
-
-        // SCROLL
-
-        successSection.scrollIntoView({
-            behavior: "smooth"
-        });
-
-
-        // CONSOLE FOR TESTING
-
-        console.log("AMAZRA ORDER");
-
-        console.log({
-            orderId: orderId,
-            product: product.name,
-            quantity: quantity,
-            total: product.price * quantity,
-            customerName: customerName,
-            phone: customerPhone,
-            address: customerAddress,
-            city: customerCity,
-            payment: payment
-        });
-
-    }
-);
-
-
-// INITIAL UPDATE
-
-updateQuantity();
         const successSection =
             document.getElementById(
                 "successSection"
