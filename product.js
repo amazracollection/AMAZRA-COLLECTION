@@ -9,7 +9,7 @@ const products = {
 
     classic: {
 
-        name: "Kegio",
+        name: "Kegio"
 
         category: "SIGNATURE SERIES",
 
@@ -23,28 +23,29 @@ const products = {
 
     royal: {
 
-        name: "Matturi",
+        name: "Matturi"
 
         category: "ROYAL SERIES",
 
         price: 2,299,
 
         image:
-          "WhatsApp Image 2026-08-26 at 6.16.17 PM.jpeg"
+            "WhatsApp Image 2026-08-26 at 6.16.17 PM.jpeg"
 
     },
 
 
     noir: {
 
-        name: "Universal Point",
+        name: "Universal Point"
 
         category: "NOIR SERIES",
 
         price: 1,999,
 
         image:
-           "WhatsApp Image 2026-08-26 at 6.16.13 PM.jpeg"
+            "WhatsApp Image 2026-08-26 at 6.16.13 PM.jpeg"
+
     }
 
 };
@@ -302,6 +303,44 @@ orderForm.addEventListener(
 
         // SHOW SUCCESS
 
+        const successSection =
+            document.getElementById(
+                "successSection"
+            );
+
+        successSection.classList.add("show");
+
+
+        // SCROLL
+
+        successSection.scrollIntoView({
+            behavior: "smooth"
+        });
+
+
+        // CONSOLE FOR TESTING
+
+        console.log("AMAZRA ORDER");
+
+        console.log({
+            orderId: orderId,
+            product: product.name,
+            quantity: quantity,
+            total: product.price * quantity,
+            customerName: customerName,
+            phone: customerPhone,
+            address: customerAddress,
+            city: customerCity,
+            payment: payment
+        });
+
+    }
+);
+
+
+// INITIAL UPDATE
+
+updateQuantity();
         const successSection =
             document.getElementById(
                 "successSection"
